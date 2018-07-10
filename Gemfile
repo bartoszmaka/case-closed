@@ -17,6 +17,8 @@ group :development, :test do
 end
 
 group :test do
+  gem 'rspec-tapas', '~> 0.2.0'
+  gem 'capybara', '~> 3.3', '>= 3.3.1'
   gem 'database_cleaner'
   gem 'factory_bot_rails'
   gem 'rspec-rails'

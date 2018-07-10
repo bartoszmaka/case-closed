@@ -1,4 +1,5 @@
 require 'simplecov'
+
 SimpleCov.start 'rails'
 SimpleCov.refuse_coverage_drop
 
